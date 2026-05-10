@@ -23,7 +23,9 @@
         "toolchains",
         "settings.toml"
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/Zxilly/cjv"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
