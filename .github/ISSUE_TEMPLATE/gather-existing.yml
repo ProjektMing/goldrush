@@ -1,0 +1,17 @@
+name: Gather Existing Packages
+description: Open an issue to gather existing packages.
+title: "[Gather]: "
+labels: ["gather"]
+body:
+  - type: input
+    attributes:
+      label: Package Name
+      description: 包名
+    validations:
+  - type: input
+    attributes:
+      label: Repository URL
+      description: 包的来源 (例如 GitHub, GitLab)
+    validations:
+      required: true
+  - type: options

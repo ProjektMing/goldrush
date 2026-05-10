@@ -1,0 +1,39 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/refs/heads/master/schema.json",
+    "version": "0.2.8",
+    "description": "The Cangjie SDK installer",
+    "homepage": "https://cjv.zxilly.dev/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Zxilly/cjv/releases/download/v0.2.8/cjv_windows_amd64.zip",
+            "hash": "6e8116a81a4ecfb7dc1481f222cbf08b44cf0d09aaf38742e5546e94dca92331"
+        }
+    },
+    "bin": "cjv.exe",
+    "pre_install": "if (!(Test-Path \"$persist_dir/settings.toml\")) { New-Item \"$dir/settings.toml\" -ItemType File -Force | Out-Null }",
+    "env_set": {
+        "CJV_HOME": "$dir"
+    },
+    "env_add_path": [
+        "bin"
+    ],
+    "persist": [
+        "bin",
+        "toolchains",
+        "settings.toml"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "https://github.com/Zxilly/cjv/releases/download/v$version/cjv_windows_amd64.zip"
+                ]
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
