@@ -1,6 +1,6 @@
 param(
     # overwrite upstream param
-    [String]$upstream = "ProjektMing/goldrush:main"
+    [String]$upstream = "ProjektMing/goldrush:master"
 )
 
 if (!$env:SCOOP_HOME) { $env:SCOOP_HOME = Convert-Path (scoop prefix scoop) }
