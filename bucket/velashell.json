@@ -1,17 +1,17 @@
 {
     "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/refs/heads/master/schema.json",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "A modern, cross-platform SSH terminal client built for DevOps and developers.",
     "homepage": "https://github.com/joesdu/VelaShell",
     "license": "AGPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/joesdu/VelaShell/releases/download/1.1.1/VelaShell-1.1.1-win-x64.zip",
-            "hash": "a8563115741f831729eb0fa994163af9428f8f7698386fe7c542bb0ed0912526"
+            "url": "https://github.com/joesdu/VelaShell/releases/download/1.1.2/VelaShell-1.1.2-win-x64.zip",
+            "hash": "16392594ef8dfb000605edadbac25242eab3b5286260289008b167fbab53f8eb"
         },
         "arm64": {
-            "url": "https://github.com/joesdu/VelaShell/releases/download/1.1.1/VelaShell-1.1.1-win-arm64.zip",
-            "hash": "114c9497002306fb644af97fe1f1a746b9a312d59074a93d1eb4624279c2e571"
+            "url": "https://github.com/joesdu/VelaShell/releases/download/1.1.2/VelaShell-1.1.2-win-arm64.zip",
+            "hash": "c0c136414208408a44121ac4fadbd04af9053fe4695c45ecc1c979309603f838"
         }
     },
     "bin": "VelaShell.exe",
