@@ -1,13 +1,13 @@
 {
     "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/refs/heads/master/schema.json",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "description": "The Cangjie SDK installer",
     "homepage": "https://cjv.zxilly.dev/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Zxilly/cjv/releases/download/v0.5.0/cjv_windows_amd64.zip",
-            "hash": "0fbbcf2dc69b31945607adf026e5c94b81cf75600caa0037b765c16a4f191ae8"
+            "url": "https://github.com/Zxilly/cjv/releases/download/v0.5.1/cjv_windows_amd64.zip",
+            "hash": "bb2f121228bbde62e6de64a904e07fe278de0132af0e57490497106961b9f3f7"
         }
     },
     "bin": "cjv.exe",
